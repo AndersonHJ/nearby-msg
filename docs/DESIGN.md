@@ -307,6 +307,8 @@ stateDiagram-v2
   - `after-save` fault with an attachment
   - the 375 px phone layout has no horizontal scroll
 
+Follow-up manual, device and automation testing is planned in [TEST_PLAN.md](TEST_PLAN.md).
+
 ### 2.10 Tradeoffs and known gaps
 
 | Area | Choice now | What production would need |
