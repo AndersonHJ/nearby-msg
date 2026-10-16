@@ -183,6 +183,15 @@ test("rejects unsupported types, oversized files and misused attachments", async
     413,
   );
   assert.equal(
+    (await upload("support", "audio/webm", new Uint8Array(30 * MiB + 1)))
+      .status,
+    413,
+  );
+  assert.equal(
+    (await upload("support", "audio/webm", new Uint8Array(30 * MiB))).status,
+    201,
+  );
+  assert.equal(
     (await upload("customer", "image/jpeg", new Uint8Array(20 * MiB))).status,
     201,
   );

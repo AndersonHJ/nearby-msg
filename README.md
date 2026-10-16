@@ -49,7 +49,7 @@ npm run check
 | `src/types.ts` | Shared data types |
 | `tools/workbench/` | Plain HTML/CSS/JavaScript interface |
 
-[Starter API reference](CONTRACT.md) describes the code that is already provided. You can extend or change it; document changes needed to run or verify your submission.
+[System design](docs/DESIGN.md) covers the architecture and the media messaging improvement. [Starter API reference](CONTRACT.md) describes the code that is already provided. You can extend or change it; document changes needed to run or verify your submission.
 
 ## Local state
 

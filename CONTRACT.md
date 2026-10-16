@@ -38,7 +38,7 @@ The text endpoint trims text, accepts 1–4,000 characters, and limits a JSON re
 | Kind | Types | Limit | Who can send |
 | --- | --- | --- | --- |
 | image | jpeg, png, webp, gif, heic/heif | 20 MiB | customer |
-| audio | webm, ogg, mp4/m4a, mpeg, aac, wav | 10 MiB | customer, support |
+| audio | webm, ogg, mp4/m4a, mpeg, aac, wav | 30 MiB | customer, support |
 | video | mp4, webm, quicktime | 100 MiB | customer |
 
 Unsupported type → 415, role not allowed → 403, over the limit → 413, empty file → 400. Professionals stay text-only for now. Files are stored as BLOBs in the same SQLite database, so they survive restart and are removed by reset.

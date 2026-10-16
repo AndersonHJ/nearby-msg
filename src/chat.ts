@@ -11,7 +11,7 @@ import type {
 const MiB = 1024 * 1024;
 export const maxBytes: Record<AttachmentKind, number> = {
   image: 20 * MiB,
-  audio: 10 * MiB,
+  audio: 30 * MiB,
   video: 100 * MiB,
 };
 const mimeTypes: Record<AttachmentKind, string[]> = {

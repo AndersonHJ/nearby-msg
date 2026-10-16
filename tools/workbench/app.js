@@ -199,7 +199,7 @@ const clock = (ms) => {
 
 // Media rules mirror src/chat.ts; the server enforces them too.
 const MiB = 1024 * 1024;
-const limits = { image: 20 * MiB, audio: 10 * MiB, video: 100 * MiB };
+const limits = { image: 20 * MiB, audio: 30 * MiB, video: 100 * MiB };
 const mimeTypes = {
   image: [
     "image/jpeg",
